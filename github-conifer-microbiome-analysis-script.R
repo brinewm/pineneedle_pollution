@@ -18,7 +18,7 @@ today=str_remove_all(today(),"-")
 
 
 # load dataset using tidytacos
-taco <- read_tidytacos('/Users/brianne/Documents/PhD/Data/conifer-pollution-data/Wenke-VOC/')
+taco <- read_tidytacos('~/Wenke-VOC/')
 
 #add in metadata
 info <- read.csv('sampledata.csv')
